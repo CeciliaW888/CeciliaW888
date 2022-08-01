@@ -1,4 +1,4 @@
 - 👋 Hi, I’m Cecilia
 - 👀 I’m interested in Data Science
 - 🌱 I’m currently learning Data Science
-- 📫 How to reach me ceciliawang621@gmail.com
+- 📫 This is my Tableau Public URL. https://public.tableau.com/app/profile/cecilia1718#!/
