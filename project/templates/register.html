@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+<!-- Add import for bootstrap wtf quickform support -->
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}
+    Sign Up
+{% endblock %}
+
+{% block main %}
+<!-- <form action="/register" method="post"> -->
+<div class="container text-start">
+    <h1>Sign up</h1>
+    {{ wtf.quick_form(form, extra_classes="text-start col-lg-4 col-form-label autocomplete='off' autofocus", novalidate=True, button_map={"submit": "primary"}) }}
+</div>
+{% endblock %}
